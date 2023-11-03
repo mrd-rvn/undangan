@@ -72,7 +72,6 @@ const request = (method, path) => {
     };
 };
 
-const util = (() => {
 
     // OK
     const opacity = (nama) => {
@@ -797,7 +796,7 @@ const comment = (() => {
         }
 
         if (nama.length >= 35) {
-            alert('panjangan nama maksimal 35');
+            alert('panjang nama maksimal 35');
             return;
         }
 
